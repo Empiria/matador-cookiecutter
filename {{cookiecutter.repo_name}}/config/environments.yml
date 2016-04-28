@@ -1,0 +1,20 @@
+Example SQL Server Environment:
+  database:
+    dbms: mssql
+    server: name or ip address of the sql server
+    db_name: agresso
+  abwServer: name or ip address of the ABW Server
+  services:
+    ABWServerX64: Agresso 5.7.1 Server (x64) - Agresso
+    ABWServer: Agresso 5.7.1 Server - Agresso
+
+Example Oracle Environment:
+  database:
+    dbms: oracle
+    server: name or ip address of the Oracle server
+    db_name: agresso
+    port: 1521
+  abwServer: name or ip address of the ABW Server
+  services:
+    ABWServerX64: Agresso 5.7.1 Server (x64) - Agresso
+    ABWServer: Agresso 5.7.1 Server - Agresso
