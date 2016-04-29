@@ -25,9 +25,8 @@ else:
     commit_hash = ''
 
 # Figure out which branch we're on
-branch = check_output(
-        ['git', 'symbolic-ref', '--short', 'HEAD']
-    ).strip().decode(encoding='UTF-8')
+cmd = ['git', 'symbolic-ref', '--short', 'HEAD']
+branch = check_output(cmd).strip().decode(encoding='UTF-8')
 
 print("prepare-commit-msg: On branch '%s'" % branch)
 
