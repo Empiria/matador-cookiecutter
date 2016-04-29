@@ -1,0 +1,12 @@
+Folders here might include:
+
+functions
+indexes
+packages
+procedures
+tables
+triggers
+views
+
+For the deployment command 'DeployOraclePackage', the .pkb and .pks files must
+reside within a 'packages' folder here with a subfolder for each package.
